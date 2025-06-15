@@ -1,0 +1,28 @@
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { Download } from "lucide-react"
+
+export default function Cv_pr() {
+  return (
+    <div className="max-w-xl mx-auto text-center space-y-6 p-4" id="resume">
+      <h2 className="text-2xl font-bold">My Resume</h2>
+
+      {/* Aperçu du CV (image) */}
+      <Image
+        src="/amenicv.png"
+        alt="CV Preview"
+        width={600}
+        height={700}
+        className="rounded-xl shadow-md mx-auto"
+      />
+
+      {/* Bouton de téléchargement */}
+      <a href="/Ameni_weslati.pdf" download>
+        <Button variant="default" className="mt-4">
+          <Download className="mr-2 h-4 w-4" />
+          Download CV
+        </Button>
+      </a>
+    </div>
+  )
+}
