@@ -32,10 +32,10 @@ function About_pr() {
   
             {/* Texte */}
             <div className="w-full md:w-1/2">
-              <p className={twMerge(poppins.className, "text-2xl font-semibold mb-4")}>
+              <p className={twMerge(poppins.className, "text-4xl font-semibold mb-4")}>
                 {item.title}
               </p>
-              <div className="text-sm prose prose-sm dark:prose-invert">
+              <div className="text-justify text-muted-foreground text-md prose prose-sm dark:prose-invert">
                 {item.description}
               </div>
             </div>

@@ -89,7 +89,7 @@ import {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               Skills Technologies
             </h2>
-            <p className="text-muted-foreground mx-auto mt-4 max-w-2xl text-lg">
+            <p className="text-muted-foreground mx-auto mt-4 max-w-2xl ">
              {competences}
             </p>
           </div>
