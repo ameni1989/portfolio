@@ -5,7 +5,7 @@ import { Download } from "lucide-react"
 export default function Cv_pr() {
   return (
     <div className="max-w-xl mx-auto text-center space-y-6 px-4 py-2" id="resume">
-      <h2 className="text-4xl font-bold">My Resume</h2>
+        <h1 className="text-4xl font-bold sm:text-4xl py-2">My Resume </h1>
 
       {/* Aperçu du CV (image) */}
       <img

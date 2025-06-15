@@ -83,13 +83,12 @@ import {
     };
   
     return (
-      <div className="bg-background py-16 md:py-24" id="skills">
+      <div className="bg-background py-16 md:py-22" id="skills">
         <div className="container mx-auto px-4 2xl:max-w-[1400px]">
           <div className="mb-10 flex flex-col gap-3 text-center">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-              Skills Technologies
-            </h2>
-            <p className="text-muted-foreground mx-auto mt-4 max-w-2xl ">
+          <h1 className="text-4xl font-bold sm:text-4xl">Skills Technologies</h1>
+
+            <p className="text-muted-foreground mx-auto mt-4 max-w-2xl text-lg">
              {competences}
             </p>
           </div>

@@ -13,7 +13,7 @@ export default function Contact_pr() {
     <div className="container mx-auto px-4 py-2 md:px-6 lg:py-20 2xl:max-w-[1400px]" id="contact">
       {/* Title */}
       <div className="mx-auto max-w-xl text-center ">
-        <h1 className="text-3xl font-bold sm:text-4xl py-2">Contact us</h1>
+        <h1 className="text-4xl font-bold sm:text-4xl py-2">Contact Me</h1>
         <p className="text-muted-foreground mt-3 py-4">
           {text_contact}
         </p>
