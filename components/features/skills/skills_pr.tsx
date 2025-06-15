@@ -40,11 +40,12 @@ import {
       icon: <Globe className="h-5 w-5" />,
       items: [
         { name: "React", icon: <Code /> },
-        { name: "React Query", icon: <Code /> },
+        { name: "Angular", icon: <Code /> },
+        { name: "JQuery", icon: <Code /> },
         { name: "Next.js", icon: <FileCode /> },
         { name: "TypeScript", icon: <FileCode /> },
         { name: "Tailwind CSS", icon: <Palette /> },
-        { name: "hadcn", icon: <Palette /> },
+        { name: "shadcn", icon: <Palette /> },
       ],
     },
     {
