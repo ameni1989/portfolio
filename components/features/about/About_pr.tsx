@@ -44,7 +44,7 @@ function About_pr() {
       </div>
     );
   }
-  const aboutus="Hi, my name is Ameni Weslati, and I’m a Full Stack Developer with solid experience in JavaScript, PHP, and Python. I’m passionate about web development and enjoy working on both the frontend and backend sides of applications.On the frontend, I build modern, responsive user interfaces using frameworks like React, Angular. On the backend, I develop robust and scalable APIs using Node.js (Express), PHP (Laravel), and Python.I also work with relational databases like MySQL, as well as NoSQL databases like MongoDB.I’m a detail-oriented, self-motivated developer who loves solving problems and constantly learning new technologies. My goal is to create clean, efficient, and user-friendly applications that meet real-world needs."
+  const aboutus="Hi, my name is Ameni Weslati, and I’m a Full Stack Developer with solid experience in JavaScript, PHP, and Python. I’m passionate about web development and enjoy working on both the frontend and backend sides of applications.On the frontend, I build modern, responsive user interfaces using frameworks like React, Angular. On the backend, I develop robust and scalable APIs using Node.js (Express), PHP (Laravel), and Python. I also work with relational databases like MySQL, as well as NoSQL databases like MongoDB.I’m a detail-oriented, self-motivated developer who loves solving problems and constantly learning new technologies. My goal is to create clean, efficient, and user-friendly applications that meet real-world needs."
 
 const dummyContent = [
   {
