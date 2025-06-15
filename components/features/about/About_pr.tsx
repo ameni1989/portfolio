@@ -27,7 +27,7 @@ function About_pr() {
 
           {/* Texte */}
           <div className="w-full md:w-1/2">
-            <div className="text-justify text-muted-foreground text-md prose prose-sm dark:prose-invert">
+            <div className="text-justify text-muted-foreground text-md">
               {item.description}
             </div>
           </div>

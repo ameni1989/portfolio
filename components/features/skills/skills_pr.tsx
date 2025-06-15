@@ -88,11 +88,11 @@ import {
           <div className="mb-10 flex flex-col gap-3 text-center">
           <h1 className="text-4xl font-bold sm:text-4xl">Skills Technologies</h1>
 
-            <p className="text-muted-foreground mx-auto mt-4 max-w-2xl text-lg">
+            <div className="text-muted-foreground mx-auto  mt-4 max-w-2xl" >
              {competences}
-            </p>
+            </div>
           </div>
-  
+ 
           <Tabs defaultValue="skills" className="max-w-4x mx-auto">
             <TabsList className="grid h-fit w-full grid-cols-1 md:grid-cols-2">
               <TabsTrigger value="skills">Technical Skills</TabsTrigger>
