@@ -8,8 +8,8 @@ export default function Cv_pr() {
       <h2 className="text-2xl font-bold">My Resume</h2>
 
       {/* Aperçu du CV (image) */}
-      <Image
-        src="/amenicv.png"
+      <img
+        src="amenicv.png"
         alt="CV Preview"
         width={600}
         height={700}
