@@ -9,7 +9,7 @@ export default function Cv_pr() {
 
       {/* Aperçu du CV (image) */}
       <img
-        src="amenicv.png"
+        src="amenicv.PNG"
         alt="CV Preview"
         width={600}
         height={700}
