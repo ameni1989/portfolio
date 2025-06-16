@@ -6,6 +6,7 @@ import { Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { ModeToggle } from "../toggledark"
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -40,12 +41,16 @@ export function Navbar() {
                 >
                   {item.name}
                 </Link>
+
               ))}
+               <ModeToggle  />
+
             </div>
           </div>
 
           {/* CTA Button - Desktop */}
-          <div className="hidden md:block">
+          <div className="hidden md:block d-flex">
+
             <Button asChild>
               <Link href="#contact">Get In Touch</Link>
             </Button>
@@ -53,6 +58,8 @@ export function Navbar() {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
+          <ModeToggle  />
+
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -72,8 +79,12 @@ export function Navbar() {
                     >
                       {item.name}
                     </Link>
+
                   ))}
+
+
                   <div className="pt-4">
+
                     <Button asChild className="w-full">
                       <Link href="#contact" onClick={() => setIsOpen(false)}>
                         Get In Touch

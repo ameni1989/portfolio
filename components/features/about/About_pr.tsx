@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Poppins } from "next/font/google";
 
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
